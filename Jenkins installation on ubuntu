@@ -3,7 +3,7 @@ Approach 4 :- Install Jenkins On Ubuntu    (this is production / real time appro
 This installation is specific to systems operating on Ubuntu.   Follow the below steps:  https://www.jenkins.io/doc/book/installing/linux/ 
 Step 1: Install Java                           $ 
 sudo apt update
-sudo apt install fontconfig openjdk-21-jre
+sudo apt install openjdk-21-jre
 java -version
 
 
@@ -32,3 +32,6 @@ Start, Stop & Restart Jenkins
 $ sudo service jenkins restart
 $ sudo service jenkins stop
 $ sudo service jenkins start
+
+
+then on aws allow the 8080 in security group
