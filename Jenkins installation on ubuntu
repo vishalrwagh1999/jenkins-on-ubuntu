@@ -3,7 +3,7 @@ Approach 4 :- Install Jenkins On Ubuntu    (this is production / real time appro
 This installation is specific to systems operating on Ubuntu.   Follow the below steps:  https://www.jenkins.io/doc/book/installing/linux/ 
 Step 1: Install Java                           $ 
 sudo apt update
-sudo apt install openjdk-21-jre
+sudo apt install openjdk-21-jdk
 java -version
 
 
